@@ -10,6 +10,7 @@
 # Executable files
 *.exe
 *.out
+*.app
 
 # CMake build directories
 /CMakeFiles
