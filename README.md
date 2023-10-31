@@ -13,9 +13,26 @@ This application is designed to convert virtual addresses to page numbers and of
 
 ## Usage
 1. Clone the repository.
+    ``` bash
+    git clone https://github.com/alexandredebortoli/os-memory-management-project.git
+    ```
+
 2. Compile the C++ code using your preferred C++ compiler (e.g., `g++`).
+    ``` bash
+    g++ -std=c++11 main.cpp -o main.exe
+    ```
+  
 3. Run the compiled executable.
-4. Follow the on-screen prompts or provide command-line arguments as required.
+    - Run the following to run and use the virtual addresses passed through the arguments.
+      ``` bash
+      ./main.exe 19986
+      ```
+      > You may pass as many arguments as you want.
+  
+    - Run the following to run and use the virtual addresses specified in the `addresses.txt` file.
+      ``` bash
+      ./main.exe
+      ```
 
 ## Contributors
 - [Alexandre Debortoli de Souza](https://github.com/alexandredebortoli)
