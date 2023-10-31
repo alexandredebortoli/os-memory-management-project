@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <vector>
+#include <limits>
 
 unsigned short logBase2(unsigned short value)
 {
