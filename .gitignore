@@ -1,0 +1,51 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries (shared objects)
+*.so
+*.dll
+*.dylib
+
+# Executable files
+*.exe
+*.out
+
+# CMake build directories
+/CMakeFiles
+/CMakeCache.txt
+/CMakeScripts
+/CMakeTmp
+/CMakeInstall.cmake
+/CMakeDoxyfile.in
+/CMakeVars.txt
+
+# Visual Studio Code
+.vscode/
+
+# macOS directories
+.DS_Store
+
+# Linux core dump files
+core
+core.*
+
+# Editor and IDE files
+*.suo
+*.sdf
+*.sln
+*.user
+*.suo
+*.ipch
+*.ncb
+*.aps
+*.vcproj
+*.sln.docstates
+
+# Generated documentation
+doxygen/
+
+# Various build output files and directories
+out/
+bin/
+build/
